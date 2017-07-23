@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/BallistaTest1_25VikingFlyingwAnimation(justLittleBuggy).unity
+  isLoaded: 1
+  isActive: 1
