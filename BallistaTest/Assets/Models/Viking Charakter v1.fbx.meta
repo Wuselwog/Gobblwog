@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: 613f569ed84036d4d97e17d9adbe7249
+timeCreated: 1499010700
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Ankle_l
+    100002: Ankle_l_end
+    100004: Ankle_r
+    100006: Ankle_r_end
+    100008: Arm_l_IK
+    100010: Arm_l_IK_end
+    100012: Arm_r_IK
+    100014: Arm_r_IK_end
+    100016: Body
+    100018: Cube.144
+    100020: Foot_l
+    100022: Foot_l_end
+    100024: Foot_r
+    100026: Foot_r_end
+    100028: Hand_l
+    100030: Hand_l_end
+    100032: Hand_r
+    100034: Hand_r_end
+    100036: Head
+    100038: Hip_l
+    100040: Hip_r
+    100042: Jaw
+    100044: Jaw_end
+    100046: Leg_l_IK
+    100048: Leg_r_IK
+    100050: Lower_arm_l
+    100052: Lower_arm_r
+    100054: Lower_leg_l
+    100056: Lower_leg_r
+    100058: Neck
+    100060: Shoulder_l
+    100062: Shoulder_r
+    100064: Upper_arm_l
+    100066: Upper_arm_r
+    100068: Upper_leg_l
+    100070: Upper_leg_r
+    100072: //RootNode
+    100074: Viking_Armature
+    400000: Ankle_l
+    400002: Ankle_l_end
+    400004: Ankle_r
+    400006: Ankle_r_end
+    400008: Arm_l_IK
+    400010: Arm_l_IK_end
+    400012: Arm_r_IK
+    400014: Arm_r_IK_end
+    400016: Body
+    400018: Cube.144
+    400020: Foot_l
+    400022: Foot_l_end
+    400024: Foot_r
+    400026: Foot_r_end
+    400028: Hand_l
+    400030: Hand_l_end
+    400032: Hand_r
+    400034: Hand_r_end
+    400036: Head
+    400038: Hip_l
+    400040: Hip_r
+    400042: Jaw
+    400044: Jaw_end
+    400046: Leg_l_IK
+    400048: Leg_r_IK
+    400050: Lower_arm_l
+    400052: Lower_arm_r
+    400054: Lower_leg_l
+    400056: Lower_leg_r
+    400058: Neck
+    400060: Shoulder_l
+    400062: Shoulder_r
+    400064: Upper_arm_l
+    400066: Upper_arm_r
+    400068: Upper_leg_l
+    400070: Upper_leg_r
+    400072: //RootNode
+    400074: Viking_Armature
+    4300000: Cube.144
+    7400000: Viking_Armature|Hit
+    7400002: Viking_Armature|Idle_1
+    7400004: Viking_Armature|Idle_2
+    7400006: Viking_Armature|Idle_3
+    7400008: Viking_Armature|Walk_1
+    7400010: Viking_Armature|Walk_2
+    7400012: Cube.144|Hit
+    9500000: //RootNode
+    13700000: Cube.144
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,669 @@
+fileFormatVersion: 2
+guid: b3b7f6d55c81e06419190482770754e3
+timeCreated: 1498295732
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature Ballista
+    100002: Ballista Main
+    100004: //RootNode
+    100006: Base Bone
+    100008: D1
+    100010: D2
+    100012: D3
+    100014: D4
+    100016: D6
+    100018: D6.001
+    100020: D6.001_end
+    100022: S1
+    100024: S1_end
+    100026: S2
+    100028: S2_end
+    100030: S3
+    100032: S3_end
+    100034: U1
+    100036: U2
+    100038: U3
+    100040: U4
+    100042: U6
+    100044: U6.001
+    100046: U6.001_end
+    400000: Armature Ballista
+    400002: Ballista Main
+    400004: //RootNode
+    400006: Base Bone
+    400008: D1
+    400010: D2
+    400012: D3
+    400014: D4
+    400016: D6
+    400018: D6.001
+    400020: D6.001_end
+    400022: S1
+    400024: S1_end
+    400026: S2
+    400028: S2_end
+    400030: S3
+    400032: S3_end
+    400034: U1
+    400036: U2
+    400038: U3
+    400040: U4
+    400042: U6
+    400044: U6.001
+    400046: U6.001_end
+    4300000: Ballista Main
+    7400000: idle
+    7400002: fullyTensed
+    7400004: '-'
+    7400006: rotated
+    7400008: idleUp
+    7400010: idleDown
+    7400012: tensedUp
+    7400014: tensedDown
+    7400016: jumpBack
+    9500000: //RootNode
+    13700000: Ballista Main
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Scene
+      firstFrame: 77
+      lastFrame: 78
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature Ballista
+        weight: 1
+      - path: Armature Ballista/Base Bone
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/D6.001
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/D6.001/D6.001_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/S2
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/S2/S2_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/S3
+        weight: 1
+      - path: Armature Ballista/Base Bone/S3/S3_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/S1
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/S1/S1_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/U6.001
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/U6.001/U6.001_end
+        weight: 1
+      - path: Ballista Main
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fullyTensed
+      takeName: Scene
+      firstFrame: 62
+      lastFrame: 63
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature Ballista
+        weight: 1
+      - path: Armature Ballista/Base Bone
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/D6.001
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/D6.001/D6.001_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/S2
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/S2/S2_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/S3
+        weight: 1
+      - path: Armature Ballista/Base Bone/S3/S3_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/S1
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/S1/S1_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/U6.001
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/U6.001/U6.001_end
+        weight: 1
+      - path: Ballista Main
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: '-'
+      takeName: Scene
+      firstFrame: 1
+      lastFrame: 91
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature Ballista
+        weight: 1
+      - path: Armature Ballista/Base Bone
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/D6.001
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/D6.001/D6.001_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/S2
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/S2/S2_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/S3
+        weight: 1
+      - path: Armature Ballista/Base Bone/S3/S3_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/S1
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/S1/S1_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/U6.001
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/U6.001/U6.001_end
+        weight: 1
+      - path: Ballista Main
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rotated
+      takeName: Scene
+      firstFrame: 90
+      lastFrame: 91
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature Ballista
+        weight: 1
+      - path: Armature Ballista/Base Bone
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/D6.001
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/D6.001/D6.001_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/S2
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/S2/S2_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/S3
+        weight: 1
+      - path: Armature Ballista/Base Bone/S3/S3_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/S1
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/S1/S1_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/U6.001
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/U6.001/U6.001_end
+        weight: 1
+      - path: Ballista Main
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idleUp
+      takeName: Scene
+      firstFrame: 81
+      lastFrame: 82
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature Ballista
+        weight: 1
+      - path: Armature Ballista/Base Bone
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/D6.001
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/D6.001/D6.001_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/S2
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/S2/S2_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/S3
+        weight: 1
+      - path: Armature Ballista/Base Bone/S3/S3_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/S1
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/S1/S1_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/U6.001
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/U6.001/U6.001_end
+        weight: 1
+      - path: Ballista Main
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idleDown
+      takeName: Scene
+      firstFrame: 90
+      lastFrame: 91
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature Ballista
+        weight: 1
+      - path: Armature Ballista/Base Bone
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/D6.001
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/D6.001/D6.001_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/S2
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/S2/S2_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/S3
+        weight: 1
+      - path: Armature Ballista/Base Bone/S3/S3_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/S1
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/S1/S1_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/U6.001
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/U6.001/U6.001_end
+        weight: 1
+      - path: Ballista Main
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jumpBack
+      takeName: Scene
+      firstFrame: 65
+      lastFrame: 77
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature Ballista
+        weight: 1
+      - path: Armature Ballista/Base Bone
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/D6.001
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/D6.001/D6.001_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/S2
+        weight: 1
+      - path: Armature Ballista/Base Bone/D1/D2/D3/D4/D6/S2/S2_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/S3
+        weight: 1
+      - path: Armature Ballista/Base Bone/S3/S3_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/S1
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/S1/S1_end
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/U6.001
+        weight: 1
+      - path: Armature Ballista/Base Bone/U1/U2/U3/U4/U6/U6.001/U6.001_end
+        weight: 1
+      - path: Ballista Main
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

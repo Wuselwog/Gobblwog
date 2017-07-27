@@ -1,0 +1,2776 @@
+fileFormatVersion: 2
+guid: bb5de624342ec704babdf6c7e14d9712
+timeCreated: 1500580045
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Ankle_l
+    100002: Ankle_l_end
+    100004: Ankle_r
+    100006: Ankle_r_end
+    100008: Arm_l_IK
+    100010: Arm_l_IK_end
+    100012: Arm_r_IK
+    100014: Arm_r_IK_end
+    100016: Body
+    100018: Foot_l
+    100020: Foot_l_end
+    100022: Foot_r
+    100024: Foot_r_end
+    100026: Hand_l
+    100028: Hand_l_end
+    100030: Hand_r
+    100032: Hand_r_end
+    100034: Head
+    100036: Hip_l
+    100038: Hip_r
+    100040: Jaw
+    100042: Jaw_end
+    100044: Leg_l_IK
+    100046: Leg_r_IK
+    100048: Lower_arm_l
+    100050: Lower_arm_r
+    100052: Lower_leg_l
+    100054: Lower_leg_r
+    100056: Neck
+    100058: Shoulder_l
+    100060: Shoulder_r
+    100062: Upper_arm_l
+    100064: Upper_arm_r
+    100066: Upper_leg_l
+    100068: Upper_leg_r
+    100070: Viking
+    100072: //RootNode
+    100074: Viking_Armature
+    100076: Weapon
+    100078: Weapon_end
+    400000: Ankle_l
+    400002: Ankle_l_end
+    400004: Ankle_r
+    400006: Ankle_r_end
+    400008: Arm_l_IK
+    400010: Arm_l_IK_end
+    400012: Arm_r_IK
+    400014: Arm_r_IK_end
+    400016: Body
+    400018: Foot_l
+    400020: Foot_l_end
+    400022: Foot_r
+    400024: Foot_r_end
+    400026: Hand_l
+    400028: Hand_l_end
+    400030: Hand_r
+    400032: Hand_r_end
+    400034: Head
+    400036: Hip_l
+    400038: Hip_r
+    400040: Jaw
+    400042: Jaw_end
+    400044: Leg_l_IK
+    400046: Leg_r_IK
+    400048: Lower_arm_l
+    400050: Lower_arm_r
+    400052: Lower_leg_l
+    400054: Lower_leg_r
+    400056: Neck
+    400058: Shoulder_l
+    400060: Shoulder_r
+    400062: Upper_arm_l
+    400064: Upper_arm_r
+    400066: Upper_leg_l
+    400068: Upper_leg_r
+    400070: Viking
+    400072: //RootNode
+    400074: Viking_Armature
+    400076: Weapon
+    400078: Weapon_end
+    4300000: Viking
+    7400000: Attack_1
+    7400002: Flying_air
+    7400004: Flying_air_3
+    7400006: Flying_animation_test
+    7400008: Flying_landing_rough_2
+    7400010: Grab_air
+    7400012: Grab_air_bugged
+    7400014: Grab_air_downwards
+    7400016: Grab_air_downwards_v2
+    7400018: Grab_landing_rough
+    7400020: Grab_landing_smooth
+    7400022: Grab_left_animation
+    7400024: Grab_right_animation
+    7400026: Grab_start
+    7400028: Grab_test
+    7400030: Grab_upward_stretch
+    7400032: Hit
+    7400034: Viking_Armature|Idle_1
+    7400036: Viking_Armature|Idle_2
+    7400038: Viking_Armature|Idle_3
+    7400040: Viking_Armature|Walk_1
+    7400042: Walk_2
+    7400044: Viking_Armature|Walk_3
+    7400046: Viking|Grab_air_bugged
+    9500000: //RootNode
+    13700000: Viking
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Attack_1
+      takeName: Viking_Armature|Attack_1
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: Viking_Armature
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK/Arm_l_IK_end
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK/Arm_r_IK_end
+        weight: 1
+      - path: Viking_Armature/Body
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l/Ankle_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r/Ankle_r_end
+        weight: 1
+      - path: Viking_Armature/Body/Neck
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l/Hand_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon/Weapon_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r/Hand_r_end
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l/Foot_l_end
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r/Foot_r_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Flying_air
+      takeName: Viking_Armature|Flying_air
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: Viking_Armature
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK/Arm_l_IK_end
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK/Arm_r_IK_end
+        weight: 1
+      - path: Viking_Armature/Body
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l/Ankle_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r/Ankle_r_end
+        weight: 1
+      - path: Viking_Armature/Body/Neck
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l/Hand_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon/Weapon_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r/Hand_r_end
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l/Foot_l_end
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r/Foot_r_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Flying_air_3
+      takeName: Viking_Armature|Flying_air_3
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: Viking_Armature
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK/Arm_l_IK_end
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK/Arm_r_IK_end
+        weight: 1
+      - path: Viking_Armature/Body
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l/Ankle_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r/Ankle_r_end
+        weight: 1
+      - path: Viking_Armature/Body/Neck
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l/Hand_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon/Weapon_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r/Hand_r_end
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l/Foot_l_end
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r/Foot_r_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Flying_animation_test
+      takeName: Viking_Armature|Flying_animation_test
+      firstFrame: 0
+      lastFrame: 539
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: Viking_Armature
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK/Arm_l_IK_end
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK/Arm_r_IK_end
+        weight: 1
+      - path: Viking_Armature/Body
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l/Ankle_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r/Ankle_r_end
+        weight: 1
+      - path: Viking_Armature/Body/Neck
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l/Hand_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon/Weapon_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r/Hand_r_end
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l/Foot_l_end
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r/Foot_r_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Flying_landing_rough_2
+      takeName: Viking_Armature|Flying_landing_rough_2
+      firstFrame: 0
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: Viking_Armature
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK/Arm_l_IK_end
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK/Arm_r_IK_end
+        weight: 1
+      - path: Viking_Armature/Body
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l/Ankle_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r/Ankle_r_end
+        weight: 1
+      - path: Viking_Armature/Body/Neck
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l/Hand_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon/Weapon_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r/Hand_r_end
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l/Foot_l_end
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r/Foot_r_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Grab_air
+      takeName: Viking_Armature|Grab_air
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: Viking_Armature
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK/Arm_l_IK_end
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK/Arm_r_IK_end
+        weight: 1
+      - path: Viking_Armature/Body
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l/Ankle_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r/Ankle_r_end
+        weight: 1
+      - path: Viking_Armature/Body/Neck
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l/Hand_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon/Weapon_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r/Hand_r_end
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l/Foot_l_end
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r/Foot_r_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Grab_air_bugged
+      takeName: Viking_Armature|Grab_air_bugged
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: Viking_Armature
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK/Arm_l_IK_end
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK/Arm_r_IK_end
+        weight: 1
+      - path: Viking_Armature/Body
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l/Ankle_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r/Ankle_r_end
+        weight: 1
+      - path: Viking_Armature/Body/Neck
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l/Hand_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon/Weapon_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r/Hand_r_end
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l/Foot_l_end
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r/Foot_r_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Grab_air_downwards
+      takeName: Viking_Armature|Grab_air_downwards
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: Viking_Armature
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK/Arm_l_IK_end
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK/Arm_r_IK_end
+        weight: 1
+      - path: Viking_Armature/Body
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l/Ankle_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r/Ankle_r_end
+        weight: 1
+      - path: Viking_Armature/Body/Neck
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l/Hand_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon/Weapon_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r/Hand_r_end
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l/Foot_l_end
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r/Foot_r_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Grab_air_downwards_v2
+      takeName: Viking_Armature|Grab_air_downwards_v2
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: Viking_Armature
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK/Arm_l_IK_end
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK/Arm_r_IK_end
+        weight: 1
+      - path: Viking_Armature/Body
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l/Ankle_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r/Ankle_r_end
+        weight: 1
+      - path: Viking_Armature/Body/Neck
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l/Hand_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon/Weapon_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r/Hand_r_end
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l/Foot_l_end
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r/Foot_r_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Grab_landing_rough
+      takeName: Viking_Armature|Grab_landing_rough
+      firstFrame: 0
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: Viking_Armature
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK/Arm_l_IK_end
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK/Arm_r_IK_end
+        weight: 1
+      - path: Viking_Armature/Body
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l/Ankle_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r/Ankle_r_end
+        weight: 1
+      - path: Viking_Armature/Body/Neck
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l/Hand_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon/Weapon_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r/Hand_r_end
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l/Foot_l_end
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r/Foot_r_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Grab_landing_smooth
+      takeName: Viking_Armature|Grab_landing_smooth
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: Viking_Armature
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK/Arm_l_IK_end
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK/Arm_r_IK_end
+        weight: 1
+      - path: Viking_Armature/Body
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l/Ankle_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r/Ankle_r_end
+        weight: 1
+      - path: Viking_Armature/Body/Neck
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l/Hand_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon/Weapon_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r/Hand_r_end
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l/Foot_l_end
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r/Foot_r_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Grab_left_animation
+      takeName: Viking_Armature|Grab_left_animation
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: Viking_Armature
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK/Arm_l_IK_end
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK/Arm_r_IK_end
+        weight: 1
+      - path: Viking_Armature/Body
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l/Ankle_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r/Ankle_r_end
+        weight: 1
+      - path: Viking_Armature/Body/Neck
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l/Hand_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon/Weapon_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r/Hand_r_end
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l/Foot_l_end
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r/Foot_r_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Grab_right_animation
+      takeName: Viking_Armature|Grab_right_animation
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: Viking_Armature
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK/Arm_l_IK_end
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK/Arm_r_IK_end
+        weight: 1
+      - path: Viking_Armature/Body
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l/Ankle_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r/Ankle_r_end
+        weight: 1
+      - path: Viking_Armature/Body/Neck
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l/Hand_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon/Weapon_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r/Hand_r_end
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l/Foot_l_end
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r/Foot_r_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Grab_start
+      takeName: Viking_Armature|Grab_start
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: Viking_Armature
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK/Arm_l_IK_end
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK/Arm_r_IK_end
+        weight: 1
+      - path: Viking_Armature/Body
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l/Ankle_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r/Ankle_r_end
+        weight: 1
+      - path: Viking_Armature/Body/Neck
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l/Hand_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon/Weapon_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r/Hand_r_end
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l/Foot_l_end
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r/Foot_r_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Grab_test
+      takeName: Viking_Armature|Grab_test
+      firstFrame: 0
+      lastFrame: 257
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: Viking_Armature
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK/Arm_l_IK_end
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK/Arm_r_IK_end
+        weight: 1
+      - path: Viking_Armature/Body
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l/Ankle_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r/Ankle_r_end
+        weight: 1
+      - path: Viking_Armature/Body/Neck
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l/Hand_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon/Weapon_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r/Hand_r_end
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l/Foot_l_end
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r/Foot_r_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Grab_upward_stretch
+      takeName: Viking_Armature|Grab_upward_stretch
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: Viking_Armature
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK/Arm_l_IK_end
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK/Arm_r_IK_end
+        weight: 1
+      - path: Viking_Armature/Body
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l/Ankle_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r/Ankle_r_end
+        weight: 1
+      - path: Viking_Armature/Body/Neck
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l/Hand_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon/Weapon_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r/Hand_r_end
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l/Foot_l_end
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r/Foot_r_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit
+      takeName: Viking_Armature|Hit
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: Viking_Armature
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK/Arm_l_IK_end
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK/Arm_r_IK_end
+        weight: 1
+      - path: Viking_Armature/Body
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l/Ankle_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r/Ankle_r_end
+        weight: 1
+      - path: Viking_Armature/Body/Neck
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l/Hand_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon/Weapon_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r/Hand_r_end
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l/Foot_l_end
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r/Foot_r_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Viking_Armature|Idle_1
+      takeName: Viking_Armature|Idle_1
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: Viking_Armature
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK/Arm_l_IK_end
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK/Arm_r_IK_end
+        weight: 1
+      - path: Viking_Armature/Body
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l/Ankle_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r/Ankle_r_end
+        weight: 1
+      - path: Viking_Armature/Body/Neck
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l/Hand_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon/Weapon_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r/Hand_r_end
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l/Foot_l_end
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r/Foot_r_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Viking_Armature|Idle_2
+      takeName: Viking_Armature|Idle_2
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: Viking_Armature
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK/Arm_l_IK_end
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK/Arm_r_IK_end
+        weight: 1
+      - path: Viking_Armature/Body
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l/Ankle_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r/Ankle_r_end
+        weight: 1
+      - path: Viking_Armature/Body/Neck
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l/Hand_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon/Weapon_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r/Hand_r_end
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l/Foot_l_end
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r/Foot_r_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Viking_Armature|Idle_3
+      takeName: Viking_Armature|Idle_3
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: Viking_Armature
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK/Arm_l_IK_end
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK/Arm_r_IK_end
+        weight: 1
+      - path: Viking_Armature/Body
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l/Ankle_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r/Ankle_r_end
+        weight: 1
+      - path: Viking_Armature/Body/Neck
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l/Hand_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon/Weapon_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r/Hand_r_end
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l/Foot_l_end
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r/Foot_r_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Viking_Armature|Walk_1
+      takeName: Viking_Armature|Walk_1
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: Viking_Armature
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK/Arm_l_IK_end
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK/Arm_r_IK_end
+        weight: 1
+      - path: Viking_Armature/Body
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l/Ankle_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r/Ankle_r_end
+        weight: 1
+      - path: Viking_Armature/Body/Neck
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l/Hand_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon/Weapon_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r/Hand_r_end
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l/Foot_l_end
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r/Foot_r_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk_2
+      takeName: Viking_Armature|Walk_2
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: Viking_Armature
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK/Arm_l_IK_end
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK/Arm_r_IK_end
+        weight: 1
+      - path: Viking_Armature/Body
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l/Ankle_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r/Ankle_r_end
+        weight: 1
+      - path: Viking_Armature/Body/Neck
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l/Hand_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon/Weapon_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r/Hand_r_end
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l/Foot_l_end
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r/Foot_r_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Viking_Armature|Walk_3
+      takeName: Viking_Armature|Walk_3
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: Viking_Armature
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK/Arm_l_IK_end
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK/Arm_r_IK_end
+        weight: 1
+      - path: Viking_Armature/Body
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l/Ankle_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r/Ankle_r_end
+        weight: 1
+      - path: Viking_Armature/Body/Neck
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l/Hand_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon/Weapon_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r/Hand_r_end
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l/Foot_l_end
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r/Foot_r_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Viking|Grab_air_bugged
+      takeName: Viking|Grab_air_bugged
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: Viking_Armature
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK
+        weight: 1
+      - path: Viking_Armature/Arm_l_IK/Arm_l_IK_end
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK
+        weight: 1
+      - path: Viking_Armature/Arm_r_IK/Arm_r_IK_end
+        weight: 1
+      - path: Viking_Armature/Body
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l
+        weight: 1
+      - path: Viking_Armature/Body/Hip_l/Upper_leg_l/Lower_leg_l/Ankle_l/Ankle_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r
+        weight: 1
+      - path: Viking_Armature/Body/Hip_r/Upper_leg_r/Lower_leg_r/Ankle_r/Ankle_r_end
+        weight: 1
+      - path: Viking_Armature/Body/Neck
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw
+        weight: 1
+      - path: Viking_Armature/Body/Neck/Head/Jaw/Jaw_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Hand_l/Hand_l_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_l/Upper_arm_l/Lower_arm_l/Weapon/Weapon_end
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r
+        weight: 1
+      - path: Viking_Armature/Body/Shoulder_r/Upper_arm_r/Lower_arm_r/Hand_r/Hand_r_end
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l
+        weight: 1
+      - path: Viking_Armature/Leg_l_IK/Foot_l/Foot_l_end
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r
+        weight: 1
+      - path: Viking_Armature/Leg_r_IK/Foot_r/Foot_r_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
